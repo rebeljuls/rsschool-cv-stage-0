@@ -1,3 +1,4 @@
+![IMG_20220930_1705534](https://user-images.githubusercontent.com/101504484/206858932-32841e19-4a94-40e5-8459-072b6915258a.jpg) 
 # *Yuliya Koval*
 
 
