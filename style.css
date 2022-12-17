@@ -98,7 +98,11 @@ body {
 html {
   scroll-behavior: smooth; 
 }
-
+.logo {
+  border: 150px;
+      width: 70px; 
+      height: 25px;
+  }
 .link {
   font-family: 'Neohellenic', sans-serif
   text-decoration: none;
