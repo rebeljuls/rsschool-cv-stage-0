@@ -4,3 +4,13 @@ p {
 body {
   font-family: 'Suravaram', sans-serif
 }
+<style>
+  .border-dotted {
+    border: 1px solid
+  }
+</style>
+<style>
+img {
+ border-radius: 200px; 
+     }
+</style>
