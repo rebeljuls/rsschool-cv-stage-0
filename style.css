@@ -1,19 +1,67 @@
 
-  body {background: url(./assist/img/GOPR0799.JPG);
+ .name {
+  text-align: center;
+
+ }
+ .nav-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ }
+.nav-list {
+  list-style: none;
+}
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+}
+ body {
+  background: url(./assist/img/GOPR0799.JPG);
 opacity: 0.95;
-background-size: 100%; }
+background-size: 100%; 
+min-height: 100vh}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 p {
   font-size: 20px;
 }
 body {
-  font-family: 'Suravaram', sans-serif
+  font-family: 'Suravaram', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    }
+    .center-img {
+      text-align: center;
+      border-radius: 25%;
+      }
+#Contacts {text-align: left;
+}
+.Aboutme {
+  text-align: right;
+}
+html {
+  scroll-behavior: smooth; 
 }
 <style>
-  .border-dotted {
+  .languages {
     border: 1px solid;
   }
-</styl>
+</style>
+.link {
+  font-family: 'Neohellenic', sans-serif
+  text-decoration: none;
+  color: #829985;
+  transition: color 0.5s;
+}
 
-img {
- border-radius: 25%;
-     }
+.link:hover {
+  color: #5d7260;
+}
