@@ -1,1 +1,1 @@
-https://github.com/rebeljuls/rsschool-cv
+https://rebeljuls.github.io/rsschool-cv/
