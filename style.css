@@ -1,3 +1,7 @@
+
+  body {background: url(./assist/img/GOPR0799.JPG);
+opacity: 0.95;
+background-size: 100%; }
 p {
   font-size: 20px;
 }
@@ -6,11 +10,10 @@ body {
 }
 <style>
   .border-dotted {
-    border: 1px solid
+    border: 1px solid;
   }
-</style>
-<style>
+</styl>
+
 img {
- border-radius: 200px; 
+ border-radius: 25%;
      }
-</style>
