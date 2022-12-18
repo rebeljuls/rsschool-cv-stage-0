@@ -145,3 +145,13 @@ html {
 .link:hover {
   color: #5d7260;
 }
+table {
+  border-collapse: collapse;
+  border: 1px solid grey;
+  }
+  th, td {
+    border: 1px solid grey;
+ }
+ th, td {
+  padding: 10px 20px;
+}
