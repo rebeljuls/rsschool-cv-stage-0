@@ -27,6 +27,7 @@
   color:#700d0d;
 }
 #Name {color: white;
+  font-variant: small-caps;
 text-align: center;
 }
  body {
@@ -42,9 +43,11 @@ body {
 }
 h1 {
   letter-spacing: 0.6em;
+  font-variant: small-caps; 
 }
 h2 {
   letter-spacing: 0.1em;
+  font-variant: small-caps; 
 }
 body {
   font-size: 18px;
@@ -72,9 +75,11 @@ body {
   width: 75%;
 }
 
-#footer{
+#footer {
   font-style: italic
 }
+
+</style>
 body {
   
     font-weight: 400;
@@ -89,13 +94,13 @@ body {
       height: 250px;
       border-radius: 75%;
       }
-#Contacts {text-align: left;
-  
-}
+#Contacts {
+  text-align: left;
+  }
 #Aboutme {
   text-align: left;
   max-width: 600px;
-  }
+   }
 html {
   scroll-behavior: smooth; 
 }
