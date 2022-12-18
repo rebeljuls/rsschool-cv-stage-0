@@ -30,17 +30,21 @@
   font-variant: small-caps;
 text-align: center;
 }
- body {
-  background: url(./assist/img/GOPR0799.JPG);
-opacity: 0.95;
-background-size: 100%; 
-min-height: 100vh}
+.header {
+  background-color: #c8f2ec;
+  opacity: 0.9;
+  }
+  .footer {
+    background-color: #c8f2ec;
+    opacity: 0.9;}
+  #footer{
+    font-style: italic;
+    font-size: 10px;
+  }
+ .main {
+ }
 
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+
 h1 {
   letter-spacing: 0.6em;
   font-variant: small-caps; 
@@ -74,15 +78,14 @@ body {
 .section {
   width: 75%;
 }
-
-#footer {
-  font-style: italic
-}
-
-</style>
 body {
-  
-    font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body {
+ font-family: 'Suravaram', sans-serif;
+     font-weight: 400;
     line-height: 1.5;
     }
     .img {
@@ -105,10 +108,10 @@ html {
   scroll-behavior: smooth; 
 }
 .logo {
-  border: 150px;
+  border: 100px;
       width: 70px; 
       height: 25px;
-  }
+   }
 .link {
   font-family: 'Neohellenic', sans-serif
   text-decoration: none;
