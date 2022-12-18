@@ -136,7 +136,7 @@ html {
       height: 25px;
    }
 .link {
-  font-family: 'Neohellenic', sans-serif
+  font-family: 'Neohellenic', sans-serif;
   text-decoration: none;
   color: #829985;
   transition: color 0.5s;
