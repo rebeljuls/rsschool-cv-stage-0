@@ -1,3 +1,186 @@
-p {
-  font-size: 20px;
+
+ .box {
+  box-sizing: 100%;
+  margin: 35px 150px 15px 150px;
+  border: 2px double #00afa3;
+  border-radius: 1%;
+ }
+ 
+.nav-list {
+  font: 18px 'Neohellenic';
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ }
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+}
+
+.nav-link {
+  transition: 0.3s;
+}
+
+.section-item a {
+  color: #26655f ;
+  text-decoration: none;  
+  transition: color 0.5s;
+  }
+
+.section-item a:hover {
+  color:#fcc23f;
+}
+ 
+#Name {
+  color: #00afa3;
+  text-align: center;
+  display: flex;
+}
+
+.header {
+  background-color: #c8f2ec;
+  opacity: 0.9;
+ }
+  
+.boxright { 
+  padding-top: 130px; 
+  width: 55%;
+  float: right;
+}
+ .boxright1 { 
+   padding-top: 80px; 
+   width: 55%;
+   float: right;
+ }
+ .boxleft {
+   width: 40%;
+   float: left;
+ }
+
+h1 {
+  letter-spacing: 0.6em;
+  font-variant: small-caps; 
+  text-transform: uppercase;
+  font-weight: bold;
+}
+h2 {
+  letter-spacing: 0.1em;
+  font-variant: small-caps; 
+}
+.contact {
+  padding: 15% 15% 5% 15%;
+}
+.student {
+  font: 18px italic;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  font: 18px 'Suravaram', sans-serif;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+ }
+  
+ .section {
+  width: 70%;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+body {
+  min-height: 100vh;
+  margin: 0; 
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+body {
+ font: 18px 'Suravaram', sans-serif;
+ font-weight: 400;
+ line-height: 1.5;
+ color: #085f88;
+}
+
+.img {
+ text-align: center; 
+ transition: 0.5s;
+ }
+
+.center-img {
+  border: 250px;
+  width: 250px; 
+  height: 250px;
+  border-radius: 75%;
+  position: relative;
+  display: inline;
+  line-height: 1.25;
+}
+
+#Contacts {
+  text-align: left;
+  }
+
+#Aboutme {
+  text-align: left;
+  max-width: 600px;
+   }
+
+html {
+  scroll-behavior: smooth; 
+}
+
+.footer {
+  margin: 5px 150px 10px 150px;
+  padding: 20px 0 5px 0px;
+  background-color: #c8f2ec;
+  opacity: 0.9;
+}
+  
+.footer {
+ font: 15px 'Neohellenic', italic;
+ }
+
+.logo {
+  width: 50px; 
+  height: 25px;
+  padding-left: 85%;
+}
+.link {
+  font-family: 'Neohellenic', sans-serif;
+  text-decoration: none;
+  color: #829985;
+  transition: color 0.5s;
+}
+
+.link:hover {
+  color: #5d7260;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+ th, td {
+  padding: 10px 20px;
 }
