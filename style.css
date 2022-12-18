@@ -6,12 +6,7 @@
   border-radius: 1%;
  }
  
- .name {
-  text-align: center;
- }
- 
-
- .nav-list {
+.nav-list {
   font: 18px 'Neohellenic';
   display: flex;
   justify-content: space-evenly;
@@ -35,15 +30,14 @@
   color: #26655f ;
   text-decoration: none;  
   transition: color 0.5s;
-}
+  }
+
 .section-item a:hover {
   color:#fcc23f;
 }
-
+ 
 #Name {
   color: #00afa3;
-  text-transform: uppercase;
-  font-variant: small-caps;
   text-align: center;
   display: flex;
 }
@@ -53,13 +47,13 @@
   opacity: 0.9;
  }
   
-  .boxright { 
+.boxright { 
   padding-top: 130px; 
   width: 55%;
   float: right;
 }
  .boxright1 { 
-   padding-top: 90px; 
+   padding-top: 80px; 
    width: 55%;
    float: right;
  }
@@ -71,6 +65,7 @@
 h1 {
   letter-spacing: 0.6em;
   font-variant: small-caps; 
+  text-transform: uppercase;
   font-weight: bold;
 }
 h2 {
@@ -81,7 +76,7 @@ h2 {
   padding: 15% 15% 5% 15%;
 }
 .student {
-  font: 14px italic;
+  font: 18px italic;
 }
 
 .container {
@@ -99,19 +94,13 @@ h2 {
  }
   
  .section {
-  width: 100%;
-  display: inline-block;
- }
-
+  width: 70%;
+}
 
 @media (max-width: 768px) {
   .section {
     width: 100%;
   }
-}
-
-.section {
-  width: 75%;
 }
 
 body {
@@ -162,20 +151,20 @@ html {
 }
 
 .footer {
-  margin: 5px 0px 15px 0px;
-  padding: 5px 0 10px 0px;
+  margin: 5px 150px 10px 150px;
+  padding: 20px 0 5px 0px;
   background-color: #c8f2ec;
   opacity: 0.9;
 }
-
+  
 .footer {
  font: 15px 'Neohellenic', italic;
-}
+ }
 
 .logo {
-  width: 70px; 
+  width: 50px; 
   height: 25px;
-  padding-left: 75%;
+  padding-left: 85%;
 }
 .link {
   font-family: 'Neohellenic', sans-serif;
