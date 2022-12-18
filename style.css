@@ -1,30 +1,36 @@
 
  .box {
-  box-sizing: 50px;
-  margin: 5px 35px 15px 35px;
+  box-sizing: 100%;
+  margin: 35px 150px 15px 150px;
   border: 2px double #00afa3;
   border-radius: 1%;
  }
+ 
  .name {
   text-align: center;
-
  }
+ 
+
  .nav-list {
   font: 18px 'Neohellenic';
   display: flex;
   justify-content: space-evenly;
   align-items: center;
  }
+
 .nav-list {
   list-style: none;
 }
+
 .nav-link {
   padding: 0 20px;
   line-height: 50px;
 }
+
 .nav-link {
-  transition: .3s;
+  transition: 0.3s;
 }
+
 .section-item a {
   color: #26655f ;
   text-decoration: none;  
@@ -33,60 +39,70 @@
 .section-item a:hover {
   color:#fcc23f;
 }
+
 #Name {
   color: #00afa3;
+  text-transform: uppercase;
   font-variant: small-caps;
-  font-weight: 20px;
-text-align: right;
-display: flex;
+  text-align: center;
+  display: flex;
 }
+
 .header {
   background-color: #c8f2ec;
   opacity: 0.9;
- 
-  }
-  .footer {
-    margin: 5px 0px 15px 0px;
-    background-color: #c8f2ec;
-    opacity: 0.9;
-    }
-  #footer{
-    font: 10px italic;
-    }
-
- .main {
  }
-
-
+  
+  .boxright { 
+  padding-top: 130px; 
+  width: 55%;
+  float: right;
+}
+ .boxright1 { 
+   padding-top: 90px; 
+   width: 55%;
+   float: right;
+ }
+ .boxleft {
+   width: 40%;
+   float: left;
+ }
 
 h1 {
   letter-spacing: 0.6em;
   font-variant: small-caps; 
   font-weight: bold;
 }
-.h2 {
+h2 {
   letter-spacing: 0.1em;
   font-variant: small-caps; 
 }
-
-body {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #4d2323;
+.contact {
+  padding: 15% 15% 5% 15%;
 }
+.student {
+  font: 14px italic;
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  font: 16px 'Suravaram', sans-serif;
 }
+
+.container {
+  font: 18px 'Suravaram', sans-serif;
+}
+
 .main-container {
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 30px;
-}
+    display: flex;
+    flex-wrap: wrap;
+ }
+  
+ .section {
+  width: 100%;
+  display: inline-block;
+ }
+
 
 @media (max-width: 768px) {
   .section {
@@ -97,44 +113,70 @@ body {
 .section {
   width: 75%;
 }
+
+body {
+  min-height: 100vh;
+  margin: 0; 
+  padding: 0;
+}
+
 body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+
 body {
- font-family: 'Suravaram', sans-serif;
-     font-weight: 400;
-    line-height: 1.5;
-    }
+ font: 18px 'Suravaram', sans-serif;
+ font-weight: 400;
+ line-height: 1.5;
+ color: #085f88;
+}
+
 .img {
- text-align: left; 
+ text-align: center; 
  transition: 0.5s;
  }
-    .center-img {
-      border: 250px;
-      width: 250px; 
-      height: 250px;
-      border-radius: 75%;
-      position: relative;
- display: inline;
- line-height: 1.25;
-      }
+
+.center-img {
+  border: 250px;
+  width: 250px; 
+  height: 250px;
+  border-radius: 75%;
+  position: relative;
+  display: inline;
+  line-height: 1.25;
+}
+
 #Contacts {
   text-align: left;
   }
+
 #Aboutme {
   text-align: left;
   max-width: 600px;
    }
+
 html {
   scroll-behavior: smooth; 
 }
+
+.footer {
+  margin: 5px 0px 15px 0px;
+  padding: 5px 0 10px 0px;
+  background-color: #c8f2ec;
+  opacity: 0.9;
+}
+
+.footer {
+ font: 15px 'Neohellenic', italic;
+}
+
 .logo {
-    border: right;
-      width: 70px; 
-      height: 25px;
-   }
+  width: 70px; 
+  height: 25px;
+  padding-left: 75%;
+}
 .link {
   font-family: 'Neohellenic', sans-serif;
   text-decoration: none;
@@ -145,13 +187,11 @@ html {
 .link:hover {
   color: #5d7260;
 }
+
 table {
   border-collapse: collapse;
-  border: 1px solid grey;
-  }
-  th, td {
-    border: 1px solid grey;
- }
+}
+
  th, td {
   padding: 10px 20px;
 }
