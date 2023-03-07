@@ -1,1 +1,1 @@
-https://rebeljuls.github.io/rsschool-cv/
+https://rebeljuls.github.io/rsschool-cv-stage-0/
